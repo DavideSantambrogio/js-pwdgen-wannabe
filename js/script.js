@@ -9,3 +9,5 @@ console.log(colorePreferito)
 let password = nome + cognome + colorePreferito + number;
 console.log (password, typeof password );
 document.getElementById("password").innerHTML = password;
+
+

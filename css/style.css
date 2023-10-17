@@ -4,8 +4,32 @@
     box-sizing: border-box;
   }
 
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  background-color: green;  
+  
+}
+
 .container {
-  margin: 0 auto;  
   width: 70%;
+  height: 90%;
+  margin: 0 auto;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url(https://media-assets.wired.it/photos/628b3fd0e62fa5b8b25e4681/16:9/w_1600,c_limit/hacker-g74cd48f42_1920.jpg);
+  background-size: contain;  
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 5rem;
+  color:red
+}
+
+#password {
+  padding-top: 1rem;
+  text-decoration: underline;
+  font-weight: 100;
 }
